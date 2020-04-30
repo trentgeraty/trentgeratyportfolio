@@ -1,15 +1,39 @@
+  
+#map {
+    height:400px;
+    width: 100%;
+}
+
+:root {
+    --primary: #2b580c;
+    --secondary: #639A67;
+    --tertiary: #D8EBB5;
+    --final: #D9BF77;
+}
+
+header {
+    background-color: var(--primary);
+    text-align: center;
+}
+
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 55px;
-    font-style: normal;
-    text-align: center;
-    background-color: #2B580C;
+    font-weight: 500;
+} 
+
+.button1 {
+    background-color: #639A67;
+    text-align: right;
+    display: inline-block;
+    border-radius: 12px;
 }
 
-body {
-    background-color: rgb(119, 18, 18);
+.success {
+    background-color: #639A67;
+    border-radius: 12px;
 }
 
-footer {
-    text-align: center;
+.button2 {
+    float:right;
+    background-color: #639A67;
+    border-radius: 12px;
 }
